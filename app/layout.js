@@ -3,11 +3,10 @@ export const metadata = {
   description: "Your Dream — Our Commitment",
 };
 
-export default function RootLayout({ children }: any) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body style={{ margin: 0, fontFamily: "Arial, sans-serif", background: "#fff" }}>
-        {/* Top bar / simple navbar */}
         <header
           style={{
             background: "#0071BC",
